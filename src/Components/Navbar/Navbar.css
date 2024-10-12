@@ -1,29 +1,23 @@
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     padding: 16px;
     box-shadow: 0 1px 3px -2px black;
-
-}
-
-.nav-logo{
-
+  }
+  
+  .nav-logo {
     display: flex;
     align-items: center;
     gap: 10px;
-
-
-}
-
-.nav-logo p{
-
-   color: rgb(0, 0, 0);
-   font-size: 38px;
-   font-weight: 600;
-
-}
-
-.nav-menu{
+  }
+  
+  .nav-logo p {
+    color: rgb(0, 0, 0);
+    font-size: 38px;
+    font-weight: 600;
+  }
+  
+  .nav-menu {
     display: flex;
     align-items: center;
     list-style: none;
@@ -31,34 +25,41 @@
     color: gray;
     font-size: 20px;
     font-weight: 500;
-}
-
-
-.nav-menu li{
+  }
+  
+  .nav-menu li {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 3px;
     cursor: pointer;
-}
-
-.nav-menu hr{
-  border: none;
-  width: 80%;
-  height: 3px;
-  border-radius: 10px;
-  background: #9b1010;
-}
-
-.nav-login-cart{
+  }
+  
+  .nav-menu li a {
+    text-decoration: none; /* Removes the underline from links */
+    color: inherit; /* Keeps the link color the same as the parent color */
+  }
+  
+  .nav-menu li a:hover {
+    color: #000; /* Optional: Changes color on hover */
+  }
+  
+  .nav-menu hr {
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: #9b1010;
+  }
+  
+  .nav-login-cart {
     display: flex;
     align-items: center;
     gap: 45px;
-
-}
-
-.nav-login-cart button{
+  }
+  
+  .nav-login-cart button {
     width: 157px;
     height: 58px;
     outline: none;
@@ -69,17 +70,13 @@
     font-weight: 500;
     background: white;
     cursor: pointer;
-
-}
-
-
-.nav-login-cart button:active{
-   
-background: #f3f3f3;
-}
-
-
-.nav-cart-count{
+  }
+  
+  .nav-login-cart button:active {
+    background: #f3f3f3;
+  }
+  
+  .nav-cart-count {
     width: 22px;
     height: 22px;
     display: flex;
@@ -91,5 +88,5 @@ background: #f3f3f3;
     font-size: 14px;
     background: red;
     color: white;
-
-}
+  }
+  
